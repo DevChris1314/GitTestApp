@@ -15,6 +15,7 @@ struct ContentView: View {
                 .foregroundStyle(.white)
             Text("Hello, world!")
                 .foregroundStyle(.white)
+            Image(systemName: "pencil")
         }
         .padding()
         .background(.cyan)
